@@ -2,7 +2,7 @@ let scores = {
   red: 0,
   blue: 0,
   green: 0,
-  yello: 0,
+  yellow: 0,
 };
 
 function OpeningCeremony(callback) {
@@ -26,7 +26,7 @@ function Race100M(callback) {
       red: Math.floor(Math.random() * 6) + 10,
       blue: Math.floor(Math.random() * 6) + 10,
       green: Math.floor(Math.random() * 6) + 10,
-      yello: Math.floor(Math.random() * 6) + 10,
+      yellow: Math.floor(Math.random() * 6) + 10,
     };
     console.log("Race Times:", raceTimes);
 
